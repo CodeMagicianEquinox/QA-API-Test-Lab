@@ -1,12 +1,22 @@
 # 🧪 QA API Test Suite
 
-Automated API testing lab using `pytest` and `requests` to validate endpoints from the [JSONPlaceholder](https://jsonplaceholder.typicode.com) fake REST API.
+Automated API testing lab using `pytest` and `requests` to validate endpoints from the [JSONPlaceholder](https://jsonplaceholder.typicode.com) fake REST API. 
+
+---
+
+## 🔗 Live Demo
+[🌐 View Live Test Report](https://codemagicianequinox.github.io/QA-API-Test-Lab/)
+
+---
 
 ## 🔧 Tech Stack
 
-- Python 3.x
-- Pytest
-- Requests
+- Python 3.x  
+- Pytest — testing framework  
+- Requests — HTTP client library  
+- Bash — command-line automation & test execution  
+- Git — version control and GitHub integration  
+- GitHub Pages — static hosting for test report
 
 ---
 
