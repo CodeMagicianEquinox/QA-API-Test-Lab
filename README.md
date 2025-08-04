@@ -55,7 +55,7 @@ Every aspect of this lab — from backend testing logic to the live frontend int
 ✅ Developed the web interface with HTML and JavaScript  
 ✅ Deployed the project using GitHub Pages to simulate a live QA workflow
 
---
+---
 
 
 ## 🛠 How to Run Locally 
