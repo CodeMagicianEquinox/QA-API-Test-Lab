@@ -38,14 +38,24 @@ The suite uses `pytest` to perform automated testing against [JSONPlaceholder](h
 
 ## 🧪 Key Features
 
-- ✅ REST API functional validation  
-- ✅ Parametrized test coverage  
-- ✅ CLI automation with `pytest`  
-- ✅ Dynamic test report viewer in the browser  
-- ✅ Clean UI built with HTML + JavaScript  
-- ✅ Fully hosted on GitHub (code + demo)
+- REST API functional validation  
+- Parametrized test coverage  
+- CLI automation with `pytest`  
+- Dynamic test report viewer in the browser  
+- Clean UI built with HTML + JavaScript  
+- Fully hosted on GitHub (code + demo)
 
 ---
+## 💻 Built From Scratch
+
+Every aspect of this lab — from backend testing logic to the live frontend interface — was created by me.
+
+✅ Authored all Python-based API test scripts  
+✅ Handled test orchestration and automation  
+✅ Developed the web interface with HTML and JavaScript  
+✅ Deployed the project using GitHub Pages to simulate a live QA workflow
+
+--
 
 
 ## 🛠 How to Run Locally 
@@ -69,6 +79,18 @@ The suite uses `pytest` to perform automated testing against [JSONPlaceholder](h
    ```bash
    pytest tests/ > docs/test_report.txt
    
+---
+## 📁 Folder Structure
+
+📁 QA-API-Test-Lab  
+├── 📂 docs/  
+│   ├── 🧾 test_report.txt  
+│   └── 📄 index.html  
+├── 📂 tests/  
+│   └── 🧪 test_users.py  
+├── 📄 requirements.txt  
+├── 📄 README.md  
+
 ---
 
 ## 📌 Notes
