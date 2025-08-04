@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>QA API Test Lab Demo</title>
+  <style>
+    body { font-family: monospace; padding: 2rem; background: #f9f9f9; }
+    button { padding: 10px 20px; font-size: 16px; margin-bottom: 20px; }
+    pre { background: #111; color: #0f0; padding: 20px; border-radius: 8px; }
+  </style>
+</head>
+<body>
+
+<h1>🧪 QA Test Demo</h1>
+<p>Click the button below to view the latest automated test results.</p>
+
+<button onclick="loadReport()">View Test Report</button>
+
+<pre id="output">No report loaded yet.</pre>
+
+<script>
+  function loadReport() {
+    fetch('test_report.txt')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('output').textContent = data;
+      })
+      .catch(err => {
+        document.getElementById('output').textContent = 'Error loading report.';
+      });
+  }
+</script>
+
+</body>
+</html>

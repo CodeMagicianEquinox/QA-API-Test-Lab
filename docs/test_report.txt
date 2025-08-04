@@ -1,0 +1,9 @@
+============================= test session starts ==============================
+platform linux -- Python 3.13.1, pytest-8.0.0, pluggy-1.5.0
+rootdir: /home/EquinoxMagician/qa-api-lab
+plugins: anyio-4.8.0, dash-2.18.1
+collected 5 items
+
+tests/test_users.py .....                                                [100%]
+
+============================== 5 passed in 1.08s ===============================
